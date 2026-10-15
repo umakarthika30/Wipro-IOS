@@ -1,0 +1,12 @@
+Optionals and Optional Handling
+
+let scores = ["Asha": 90, "Ravi": 72]
+
+let kiran = scores["Kiran"] ?? 0
+let number = Int("12a") ?? 0
+
+print(kiran + number)
+
+
+output 
+0
